@@ -1,1 +1,2 @@
 session_id,date,planned_minutes,energy_after_1_5,motivation_after_1_5,confidence_after_1_5,reflection,learning_log_ref
+20260930-01,2026-09-30,,,,,"Asked clarifying questions when a concept was unclear (FP formats, matmul, KV cache, layers) and reconstructed batching and KV-cache limits correctly. Final part of the written note confused batch size with a fill level; to revisit.",docs/LEARNING_LOG.md#2026-09-30--phase-1-number-formats-prefilldecode-batch-and-kv-cache

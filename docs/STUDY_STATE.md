@@ -4,12 +4,12 @@ This is the concise source of truth for where to resume. Update it at the end of
 
 **Last updated:** 2026-09-30  
 **Current phase:** Phase 1 — Foundations  
-**Phase status:** Not started  
-**Latest session:** None
+**Phase status:** In progress  
+**Latest session:** 2026-09-30 (`20260930-01`), time not recorded — see [learning log](LEARNING_LOG.md)
 
 ## Phase status
 
-- [ ] Phase 1 — ML, PyTorch, Transformer, and inference fundamentals
+- [ ] Phase 1 — ML, PyTorch, Transformer, and inference fundamentals (in progress)
 - [ ] Phase 2 — Semantic search and RAG
 - [ ] Phase 3 — CUDA fundamentals
 - [ ] Phase 4 — GPU performance and Triton
@@ -18,12 +18,16 @@ This is the concise source of truth for where to resume. Update it at the end of
 
 ## Progress and evidence
 
-The repository scaffold is in place. No study or benchmark sessions have been logged yet; the structured CSV files contain headers only.
+- Session 1 covered number formats (FP32/FP16/BF16), weight memory, the generation loop, prefill vs decode, batching, and KV cache. Evidence: a written note and hand calculations in the [learning log](LEARNING_LOG.md); no code or benchmark yet.
+- Not yet covered in Phase 1: neural network basics, attention and tokenization in more detail, PyTorch, and GPU memory in practice.
+- Phase 1 exit evidence (a reproducible benchmark report) does not exist yet.
+- Logged time so far: no minutes recorded, so no workload figure against the 10–12 hours/week target is available.
 
 ## Next recommended activity
 
-Plan the first Phase 1 benchmark: identify the compute available locally, decide whether a small cloud GPU run is needed, and define the workload and measurements before setting up dependencies.
+Phase 1, planning (about 45 minutes): define the first benchmark on CPU. Start by rewriting the last part of the note (batch size vs KV cache memory) in your own words, then choose a small model, the variables (dtype FP32 vs BF16, batch size, sequence length), and the metrics (prefill latency, decode tokens/sec, memory) in `docs/EXPERIMENTS.md`. Expected result: a written benchmark plan before any setup.
 
 ## Open questions / blockers
 
-None recorded.
+- No local GPU. Plan fundamentals on CPU and decide later whether a short cloud GPU run is needed.
+- The session duration was not reported, so time for this session is not recorded.

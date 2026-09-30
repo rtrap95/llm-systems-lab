@@ -1,0 +1,21 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Downloaded weights and raw data
+data/raw/
+data/models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+
+# Large local profiler captures
+*.nsys-rep
+*.ncu-rep
+*.qdrep

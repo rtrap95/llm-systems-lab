@@ -1,2 +1,2 @@
 session_id,block_id,phase,activity,topic,minutes,duration_basis,resource,output_ref,notes
-20260930-01,01,phase_1,study,unallocated,30,reported_exact,,docs/LEARNING_LOG.md,"Total time reported without a topic breakdown. Covered number formats, weight memory, generation loop, prefill vs decode, batching, KV cache, written note; no code or benchmark"
+20260930-01,01,phase_1,study,unallocated,45,reported_exact,,docs/LEARNING_LOG.md,"Total time reported without a topic breakdown (30 min main session + 15 min added at close). Covered number formats, weight memory, generation loop, prefill vs decode, batching, KV cache, written note, vocabulary/tokenizer, fine-tuning, MoE, MLP; no code or benchmark"

@@ -1,3 +1,2 @@
 session_id,block_id,phase,activity,topic,minutes,duration_basis,resource,output_ref,notes
-20260930-01,01,phase_1,study,llm_fundamentals,,not_recorded,,docs/LEARNING_LOG.md,"Matmul, batch size, FP32/FP16/BF16, weight memory calculations, brief INT8 trade-offs"
-20260930-01,02,phase_1,study,inference,,not_recorded,,docs/LEARNING_LOG.md,"Generation loop, prefill vs decode, batching, KV cache, written note; no code or benchmark"
+20260930-01,01,phase_1,study,unallocated,30,reported_exact,,docs/LEARNING_LOG.md,"Total time reported without a topic breakdown. Covered number formats, weight memory, generation loop, prefill vs decode, batching, KV cache, written note; no code or benchmark"

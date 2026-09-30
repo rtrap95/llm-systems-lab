@@ -5,7 +5,7 @@ This is the concise source of truth for where to resume. Update it at the end of
 **Last updated:** 2026-09-30  
 **Current phase:** Phase 1 — Foundations  
 **Phase status:** In progress  
-**Latest session:** 2026-09-30 (`20260930-01`), time not recorded — see [learning log](LEARNING_LOG.md)
+**Latest session:** 2026-09-30 (`20260930-01`), 30 minutes logged — see [learning log](LEARNING_LOG.md)
 
 ## Phase status
 
@@ -21,7 +21,7 @@ This is the concise source of truth for where to resume. Update it at the end of
 - Session 1 covered number formats (FP32/FP16/BF16), weight memory, the generation loop, prefill vs decode, batching, and KV cache. Evidence: a written note and hand calculations in the [learning log](LEARNING_LOG.md); no code or benchmark yet.
 - Not yet covered in Phase 1: neural network basics, attention and tokenization in more detail, PyTorch, and GPU memory in practice.
 - Phase 1 exit evidence (a reproducible benchmark report) does not exist yet.
-- Logged time so far: no minutes recorded, so no workload figure against the 10–12 hours/week target is available.
+- Logged time so far: 30 minutes (one session, no topic breakdown). A single session is too little data for a trend against the 10–12 hours/week target.
 
 ## Next recommended activity
 
@@ -30,4 +30,4 @@ Phase 1, planning (about 45 minutes): define the first benchmark on CPU. Start b
 ## Open questions / blockers
 
 - No local GPU. Plan fundamentals on CPU and decide later whether a short cloud GPU run is needed.
-- The session duration was not reported, so time for this session is not recorded.
+None other recorded.

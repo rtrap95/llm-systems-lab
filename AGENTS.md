@@ -26,12 +26,13 @@ These instructions apply to every study, planning, and implementation session in
 
 When the user says they are out of time, done for now, or asks to wrap up:
 
-1. Reconcile what was actually studied, built, measured, and learned with repository evidence and the user's recap.
-2. Append a dated entry to `docs/LEARNING_LOG.md`. Record only the time the user reports; write `Not recorded` if it is unknown. Never invent hours, outcomes, or understanding.
-3. Append one row per actual focus block to `data/study_blocks.csv` and one session row to `data/study_sessions.csv`. If the user reports total time but not its breakdown, log it as `unallocated`; never invent a topic split. Leave unknown minutes blank and mark their basis `not_recorded`.
-4. Update `docs/STUDY_STATE.md`: current phase, phase/task status, completed evidence, blockers if any, last session, and the next recommended activity.
-5. Update experiment reports, result summaries, module status, or roadmap content when the work changed them. Update `docs/DECISIONS.md` only when a lasting direction or constraint changed.
-6. Mark a task or phase complete only when its stated deliverable or exit evidence exists. Time spent alone is not completion.
-7. Give a short evidence-based workload check when useful, then tell the user what was recorded, which files changed, and where to resume next time.
+1. Before writing any record, ask the user in one short message for whatever is still missing: total time actually spent, whether they want to split it by topic (optional), planned time if it was never stated, and optional energy/motivation/confidence ratings (skippable). Do not ask about items already reported. Write `Not recorded` or leave blank for anything the user skips.
+2. Reconcile what was actually studied, built, measured, and learned with repository evidence and the user's recap.
+3. Append a dated entry to `docs/LEARNING_LOG.md`. Record only the time the user reports; write `Not recorded` if it is unknown. Never invent hours, outcomes, or understanding.
+4. Append one row per actual focus block to `data/study_blocks.csv` and one session row to `data/study_sessions.csv`. If the user reports total time but not its breakdown, log it as `unallocated`; never invent a topic split. Leave unknown minutes blank and mark their basis `not_recorded`.
+5. Update `docs/STUDY_STATE.md`: current phase, phase/task status, completed evidence, blockers if any, last session, and the next recommended activity.
+6. Update experiment reports, result summaries, module status, or roadmap content when the work changed them. Update `docs/DECISIONS.md` only when a lasting direction or constraint changed.
+7. Mark a task or phase complete only when its stated deliverable or exit evidence exists. Time spent alone is not completion.
+8. Give a short evidence-based workload check when useful, then tell the user what was recorded, which files changed, and where to resume next time.
 
 Do not create a study-log entry when the user is only asking for a recommendation and has not begun a session. If a recap is incomplete, record known facts and clearly label unknowns instead of fabricating details.
